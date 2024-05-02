@@ -25,7 +25,7 @@ importers:
         version: 1.0.2(rollup@3.29.3)
       '@vueuse/integrations':
         specifier: ^10.5.0
-        version: 10.5.0(focus-trap@7.5.4)(fuse.js@6.6.2)(vue@3.3.7)
+        version: 10.5.0(focus-trap@7.5.4)(fuse.js@7.0.0)(vue@3.3.7)
       '@vueuse/nuxt':
         specifier: ^10.5.0
         version: 10.5.0(nuxt@3.8.0)(rollup@3.29.3)(vue@3.3.7)
@@ -33,8 +33,8 @@ importers:
         specifier: ^7.5.4
         version: 7.5.4
       fuse.js:
-        specifier: ^6.6.2
-        version: 6.6.2
+        specifier: ^7.0.0
+        version: 7.0.0
     devDependencies:
       '@algolia/client-search':
         specifier: ^4.20.0
@@ -3359,7 +3359,7 @@ packages:
       vue: 3.3.7(typescript@5.2.2)
     dev: false
 
-  /@vueuse/integrations@10.5.0(focus-trap@7.5.4)(fuse.js@6.6.2)(vue@3.3.7):
+  /@vueuse/integrations@10.5.0(focus-trap@7.5.4)(fuse.js@7.0.0)(vue@3.3.7):
     resolution: {integrity: sha512-fm5sXLCK0Ww3rRnzqnCQRmfjDURaI4xMsx+T+cec0ngQqHx/JgUtm8G0vRjwtonIeTBsH1Q8L3SucE+7K7upJQ==}
     peerDependencies:
       async-validator: '*'
@@ -3403,7 +3403,7 @@ packages:
       '@vueuse/core': 10.5.0(vue@3.3.7)
       '@vueuse/shared': 10.5.0(vue@3.3.7)
       focus-trap: 7.5.4
-      fuse.js: 6.6.2
+      fuse.js: 7.0.0
       vue-demi: 0.14.6(vue@3.3.7)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -5458,8 +5458,8 @@ packages:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
     dev: true
 
-  /fuse.js@6.6.2:
-    resolution: {integrity: sha512-cJaJkxCCxC8qIIcPBF9yGxY0W/tVZS3uEISDxhYIdtk8OL93pe+6Zj7LjCqVV4dzbqcriOZ+kQ/NE4RXZHsIGA==}
+  /fuse.js@7.0.0:
+    resolution: {integrity: sha512-14F4hBIxqKvD4Zz/XjDc3y94mNZN6pRv3U13Udo0lNLCWRBUsrMv2xwcF/y/Z5sV6+FQW+/ow68cHpm4sunt8Q==}
     engines: {node: '>=10'}
     dev: false
 
